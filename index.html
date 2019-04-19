@@ -2,32 +2,37 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Calculator</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="/static/main.css" />
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="/static/main.css" />
+  <meta name="Author" content="Jorrmungandr">
 </head>
 
 <body>
-    <div class="every-thing">
-        <div id="calculator" class="div-num-pad">
-            <div>
-                <input id="text-container"></input>
-            </div>
-        </div>
-        <div>
-            <div>
-                <input type="text" id="input">
-            </div>
-            <div id="main-functions" class="side-div">
-            </div>
-        </div>
-        <div>
-            <button class="button" id="enter">=</button>    
-        </div>
+  <!--The div that contains everything-->
+  <div class="every-thing">
+    <!--This is where the NumPad is-->
+    <div id="calculator" class="div-num-pad">
+      <div>
+        <!--Where the math is stored-->
+        <input id="text-container"></input>
+      </div>
     </div>
-    <script src="/static/app.js"></script>
+    <div>
+      <div>
+        <input type="text" id="input">
+      </div>
+      <!--Where the calculator's functions are stored-->
+      <div id="main-functions" class="side-div"></div>
+    </div>
+    <div>
+      <!--The "equal to" Button-->
+      <button class="button" id="enter">=</button>
+    </div>
+  </div>
+  <script src="/static/app.js"></script>
 </body>
 
 </html>
